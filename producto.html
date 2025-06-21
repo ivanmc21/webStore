@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store | Producto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo"  href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+    
+        <div class="productoStore">
+            <img class="produtoStore__imagen" src="img/3.jpg" alt="imagen de producto">
+            <div class="producto__contenido">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis error sequi quia 
+                    explicabo dolor, delectus assumenda aut obcaecati vel esse maiores ex quo est, ab nisi beatae. 
+                    Consequuntur, vel.
+                </p>    
+
+                <div class="inputs">
+                    <select name="tallas" id="tallas">
+                        <option selected>--Seleccionar Tallas--</option>
+                        <option >S</option>
+                        <option >M</option>
+                        <option >L</option>
+                        <option >XL</option>
+                    </select>
+                    <input type="text" placeholder="Cantidad" class="txt">
+                </div>
+
+                <button type="submit" class="boton">Agregar al Carrito</button>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="footer">
+        <p class="footer__texto">
+            FrontEnd Store - Todos lo derechos reservados 2024.
+        </p>
+    </footer>
+
+</body>
+</html>
